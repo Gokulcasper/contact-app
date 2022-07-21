@@ -1,10 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
+import Header from "./Header";
+import AddContact from "./AddContact";
+import ContactList from "./ContactList";
 
-class App extends Component {
-  render() {
-    return <div>Hello World</div>;
-  }
+function App() {
+  return (
+    <div>
+      <Header />
+      <AddContact />
+      {/* <ContactList /> */}
+    </div>
+  );
 }
 
 export default App;
